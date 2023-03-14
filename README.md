@@ -23,3 +23,4 @@ This repository and book is licensed under a [Creative Commons Attribution 4.0 I
 * This version of the glossary deleted all terms that aren't necessary for Markus Harrers version of the iSAQB Foundation Level Training
 * Some terms where changed and improved. You can see this via the changes in this GitHub repository using "History"
 * Terms that were removed are soft deleted by commenting them out in the `0-structure.adoc` files for each letter.
+  * The script `sortTermsAlphabetically.gradle` was extended with the method `collectRemovedFiles` to sort out terms that were removed via line comments.
