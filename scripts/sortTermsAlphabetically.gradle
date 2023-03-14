@@ -106,7 +106,9 @@ task sortTermsAlphabetically(
     }
 
     ext.createTermsContent = { LanguageCode languageCode ->
-        ArrayList<Term> terms = collectTerms()
+
+        def removedFilenames = collectRemovedFiles()
+        ArrayList<Term> terms = collectTerms(removedFilenames)
 
         List alphabet = ('A'..'Z').collect { it }
         alphabet.removeAll {
@@ -120,13 +122,32 @@ task sortTermsAlphabetically(
         return terms
     }
 
-    ext.collectTerms = {
+    ext.collectRemovedFiles = {
+        def termsFolder = new File(projectDir, relativeTermsFolder)
+        def removedFilenames = []
+
+        termsFolder.traverse(type: FILES) { absoluteFilepath ->
+
+            if (absoluteFilepath.name == '0-structure.adoc') {
+                absoluteFilepath.eachLine { line ->
+                    if (line ==~ ~'// include\\:\\:(.*)\\[.*\\]$') {
+                        def filename = Matcher.lastMatcher[0][1]
+                        removedFilenames.add(filename)
+                    }
+                }
+            }
+        }
+        return removedFilenames
+
+    }
+
+    ext.collectTerms = {ArrayList<String> removedFilenames ->
         def termsFolder = new File(projectDir, relativeTermsFolder)
         def terms = []
 
         termsFolder.traverse(type: FILES) { file ->
 
-            if (file.name ==~ 'term.*[.](ad|adoc|asciidoc)$') {
+            if (!(removedFilenames.contains(file.name)) && file.name ==~ 'term.*[.](ad|adoc|asciidoc)$') {
                 logger.debug( "Learning term from file: " + file.getAbsolutePath() )
                 def content = file.text
 
