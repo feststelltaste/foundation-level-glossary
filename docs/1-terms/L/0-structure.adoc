@@ -5,5 +5,5 @@
 
 include::term-latency.adoc[{include_configuration}]
 include::term-layer.adoc[{include_configuration}]
-include::term-learnability-quality-attribute.adoc[{include_configuration}]
+// include::term-learnability-quality-attribute.adoc[{include_configuration}]
 include::term-liskov-substitution-principle.adoc[{include_configuration}]
