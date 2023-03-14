@@ -1,5 +1,9 @@
 # Inofficial iSAQB® glossary for Markus Harrers Foundation Level courses
 
+## Current state
+This version of the glossary is currently (March 2023) work in progress. That means there may be some missing info for proper attribution regarding the original work as well as parts of the glossary that aren't adapted yet by Markus Harrer. 
+
+
 ## About
 This is a very shortened and adapted version of the [iSAQB® glossary](https://github.com/isaqb-org/glossary) that defines terms in the area of software architecture for a very specific audience: participiants of [Markus Harrers Foundation Level courses](https://www.socreatory.com/de/trainers/markus-harrer).
 
