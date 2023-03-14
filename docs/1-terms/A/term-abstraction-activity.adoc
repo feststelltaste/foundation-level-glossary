@@ -1,0 +1,16 @@
+[#term-abstraction]
+
+// tag::EN[]
+==== Abstraction (activity)
+
+Removing details to focus attention on aspects of greater importance.
+
+// end::EN[]
+
+// tag::DE[]
+==== Abstraktion (Vorgehen)
+
+Entfernens von Details, um die Aufmerksamkeit auf Aspekte von größerer Bedeutung zu lenken.
+Ähnlich wie der Prozess der Verallgemeinerung.
+
+// end::DE[]

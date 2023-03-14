@@ -1,0 +1,19 @@
+[#term-abstraction]
+
+// tag::EN[]
+==== Abstraction (result)
+
+Representation of an element that focuses on the information relevant to a particular purpose, ignoring additional or other information.
+
+// end::EN[]
+
+// tag::DE[]
+
+==== Abstraktion (Ergebnis)
+
+Darstellung eines Elements, die sich auf die für einen bestimmten
+Zweck maßgeblichen Informationen konzentriert und die übrigen
+Informationen ignoriert.
+
+
+// end::DE[]
