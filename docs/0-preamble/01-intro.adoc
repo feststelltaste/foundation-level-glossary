@@ -17,7 +17,7 @@ Finally, this book contains numerous <<section-references,references>> to books 
 This book is work in progress.
 ====
 
-Errors or omissions can also be reported in our issue tracker on link:https://github.com/isaqb-org/glossary/issues[GitHub], where the authors maintain the original sources for this book.
+Errors or omissions can also be reported in our issue tracker on link:https://github.com/feststelltaste/foundation-level-glossary/issues[GitHub], where the authors maintain the original sources for this book.
 
 // end::EN[]
 
@@ -37,6 +37,6 @@ Zu guter Letzt beinhaltet dieses Buch zahlreiche <<section-references,Verweise>>
 Dieses Buch ist in Arbeit und unfertig.
 ====
 
-Sie können Fehler oder Auslassungen in unserem Issue-Tracker auf link:https://github.com/isaqb-org/glossary/issues[GitHub] melden, wo wir die Quellen für dieses Buch verwalten.
+Sie können Fehler oder Auslassungen in unserem Issue-Tracker auf link:https://github.com/feststelltaste/foundation-level-glossary/issues[GitHub] melden, wo wir die Quellen für dieses Buch verwalten.
 
 // end::DE[]
