@@ -1,24 +1,15 @@
 [#term-microservice]
 
 // tag::EN[]
-==== Microservice
+==== Microservices
 
-An architectural style, proposing to divide large systems into small units.
-"Microservices have to be implemented as virtual machines, as more light-weight alternatives such as Docker containers or as individual processes. Thereby they can easily be brought into production individually." (quoted from the (free) link:https://leanpub.com/microservices-primer[LeanPub booklet on Microservices] by link:https://microservices-book.com[Eberhard Wolff])
+An architectural style, proposing to divide large systems into small units to deliver software systems e.g., faster and scale more cost-effectively.
 
 // end::EN[]
 
 // tag::DE[]
-==== Microservice
+==== Microservices
 
-Architekturstil, der die Unterteilung von großen Systemen in kleine
-Einheiten vorschlägt. "Microservices müssen als virtuelle Maschinen,
-als leichtere Alternativen, wie Docker-Container, oder als
-individuelle Prozesse implementiert werden. Dadurch können sie leicht
-einzeln in Produktion genommen werden." (Übersetztes englisches Zitat
-aus dem (kostenlosen) link:https://leanpub.com/microservices-primer[LeanPub booklet on Microservices]
-von link:https://microservices-book.com/[Eberhard Wolff].
-
-
+Architekturstil, der die Unterteilung von großen Systemen in kleine Einheiten vorschlägt, um damit Softwaresysteme u.a. schneller auszuliefern und kostengünstiger zu skalieren.
 
 // end::DE[]
