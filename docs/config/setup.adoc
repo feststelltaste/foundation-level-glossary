@@ -22,11 +22,11 @@ endif::withRemarks[]
 :include_configuration: tags=**;{language}{remarks};!*
 
 ifeval::["{language}" == "DE"]
-:curriculum-header-title: iSAQB® Glossar für Begriffe rund um Softwarearchitektur
+:curriculum-header-title: Inoffizieller Glossar für Begriffe rund um Softwarearchitektur im Foundation Level
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-header-title: iSAQB® Glossary of Software Architecture Terminology
+:curriculum-header-title: Inofficial Glossary of Software Architecture Terminology for Foundation Level
 endif::[]
 
 // you might want to output some internal information...

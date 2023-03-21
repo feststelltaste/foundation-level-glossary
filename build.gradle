@@ -91,12 +91,12 @@ class RenderCurriculumTask extends AsciidoctorTask {
                 'withRemarks'       : withRemarks,
                 'curriculumFileName': curriculumFileName,
                 'debug_adoc'        : false,
-                'pdf-stylesdir'     : '../pdf-theme/themes',
-                'pdf-fontsdir'      : '../pdf-theme/fonts',
-                'pdf-style'         : 'isaqb',
-                'stylesheet'        : '../html-theme/adoc-github.css',
-                'stylesheet-dir'    : '../html-theme',
-                'front-cover-image': '../cover/cover_' + language.toLowerCase() + '.pdf'
+//              'pdf-stylesdir'     : '../pdf-theme/themes',
+//              'pdf-fontsdir'      : '../pdf-theme/fonts',
+                'pdf-style'         : 'default-for-print',
+//              'stylesheet'        : '../html-theme/adoc-github.css',
+//              'stylesheet-dir'    : '../html-theme',
+                // 'front-cover-image': '../cover/cover_' + language.toLowerCase() + '.pdf'
         ]
     }
 }
