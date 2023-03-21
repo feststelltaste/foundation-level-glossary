@@ -37,4 +37,4 @@ include::8-references/references.adoc[{include_configuration}]
 
 :toclevels: 1
 <<<
-include::9-appendices/0-structure.adoc[{include_configuration}]
+// include::9-appendices/0-structure.adoc[{include_configuration}]

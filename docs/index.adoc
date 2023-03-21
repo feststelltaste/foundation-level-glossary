@@ -1,10 +1,19 @@
 include::config/setup.adoc[]
 
-= image:isaqb-logo.jpg[width=150] Glossary of Software Architecture Terminology
+= Inofficial Glossary of Software Architecture Terminology for Foundation Level
 
-The international Software Architecture Qualification Board (link:https://isaqb.org[iSAQB]) defines curricula on several levels for software architects.
+_current state: draft_
 
-The terminology used in the iSAQB® curricula is available in the following formats.
+The international Software Architecture Qualification Board (link:https://isaqb.org[iSAQB®]) defines curricula on several levels for software architects. This project tries to define most of the terms used in the foundation level curriculum.
+
+== About this version
+This glossary is a fork from the link:https://github.com/isaqb-org/glossary[iSAQB® glossary] and was specifically tailored for the Foundation Level courses by Markus Harrer.
+
+This community-driven project is not officially maintained project by the iSAQB® and you if you choose to use the content of this repository and the glossary, you are doing this at your own risk!
+
+== Credits and License
+
+The major part of this glossary comes from https://github.com/isaqb-org/glossary thanks to their use of the link:https://creativecommons.org/licenses/by/4.0/[Creative Commons BY 4.0 license]. This project this thus a derivative work, also licensed under Creative Commons BY 4.0. See the link:https://github.com/feststelltaste/foundation-level-glossary#license[repository] of this version for more information.
 
 == Available Versions
 
