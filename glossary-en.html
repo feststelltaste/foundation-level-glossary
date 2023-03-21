@@ -706,12 +706,6 @@ please feel free to do this via one of the following ways:</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="term-aggregate">Aggregate</h4>
-<div class="paragraph">
-<p>Aggregate is a building block of <a href="#term-DDD">Domain-Driven Design</a>. Aggregates are complex object structures that are made of <a href="#term-entity">entities</a> and <a href="#term-value-object">value objects</a>. Each aggregate has a root entity and is regarded as one unit when it comes to changes. An aggregate ensure consistency and integrity of its contained entities with invariants.</p>
-</div>
-</div>
-<div class="sect3">
 <h4 id="term-aggregation">Aggregation</h4>
 <div class="paragraph">
 <p>A form of object <a href="#term-composition">composition</a> in object-oriented programming.
@@ -898,12 +892,6 @@ However, from a practical point of view this distinction is not essential.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="term-architecture-viewpoint">Architecture Viewpoint</h4>
-<div class="paragraph">
-<p>Work product establishing the conventions for the construction, interpretation and use of architecture views to frame specific system concerns (as defined in ISO/IEC/IEEE 42010).</p>
-</div>
-</div>
-<div class="sect3">
 <h4 id="term-artifact">Artifact</h4>
 <div class="paragraph">
 <p>Tangible by-product created or generated during development
@@ -920,15 +908,6 @@ source code, test cases, class-files, archives.</p>
 <div class="paragraph">
 <p>Gathering information about status, risks or vulnerabilities of a system.
 Assessment might potentially concern all aspects (development, organization, architecture, code, etc.).</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="term-atam">ATAM</h4>
-<div class="paragraph">
-<p><em>Architecture Tradeoff Analysis Method</em>. Qualitative architecture evaluation method,
-based upon a (hierarchical) quality tree and concrete quality scenarios.
-Basic idea: Compare fine-grained quality scenarios ("<a href="#term-quality-requirement">quality-requirements</a>")
-with the corresponding architectural approaches to identify risks and trade-offs.</p>
 </div>
 </div>
 </div>
@@ -1302,18 +1281,6 @@ occur at other elements.</p>
 <h4 id="term-documentation">Documentation</h4>
 <div class="paragraph">
 <p>A systematically ordered collection of documents and other material of any kind that makes usage or evaluation easier. Examples for "other material": presentation, video, audio, web page, image, etc.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="term-documentation-build">Documentation Build</h4>
-<div class="paragraph">
-<p>Automatic build process that collects artifacts into a consistent documentation.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="term-domain-model">Domain Model</h4>
-<div class="paragraph">
-<p>The domain model is a concept of <a href="#term-DDD">Domain-Driven Design</a>. It provides a system of abstractions that describes selected aspects of a domain and can be used to solve problems related to that domain.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2103,43 +2070,6 @@ A risk involves <em>uncertainty</em> about the effects, consequences or implicat
 </div>
 </div>
 <div class="sect3">
-<h4 id="term-round-trip-engineering">Round-trip Engineering</h4>
-<div class="paragraph">
-<p>"Concept of being able to make any kind of change to a model as well as to the code generated from that model. The changes always propagate bidirectional and both artifacts are always consistent." (quoted from
- <a href="https://en.wikipedia.org/wiki/Model-driven_software_development">Wikipedia</a>)</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="title">Comment (Gernot Starke)</div>
-<div class="paragraph">
-<p>In my personal opinion, it does not work in practical situations, only in hello-world-like scenarios, as the inverse abstraction (from low-level sourcecode to higher-level architectural elements) usually involves design-decisions and cannot realistically be automated.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="title">Comment (Matthias Bohlen)</div>
-<div class="paragraph">
-<p>Recently I have seen code that originated from DDD where reverse engineering did indeed work.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
 <h4 id="term-runtime-view">Runtime View</h4>
 <div class="paragraph">
 <p>Shows the cooperation or collaboration of building blocks
@@ -2566,33 +2496,12 @@ presence of a correct implementation of B.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="term-web-of-trust">Web of Trust</h4>
-<div class="paragraph">
-<p>Since a single <a href="#term-ca">CA</a> could be an easy target for an attacker the web
-of trust delegates the establishment of trust to the user. Each user decides
-which other users proof of identity he trusts, usually by verifying a
-fingerprint of a given key. This trust is expressed by signing the key of the
-other user who can then publish it with the additional signature. A third user
-can then verify this signature and decide to trust the identity or not.</p>
-</div>
-<div class="paragraph">
-<p>The email encryption PGP is an example for a <a href="#term-pki">PKI</a> based on a web of trust.</p>
-</div>
-</div>
-<div class="sect3">
 <h4 id="term-whitebox">White Box</h4>
 <div class="paragraph">
 <p>Shows the internal structure of a system or building block, made up from blackboxes and the internal/external relationships and interfaces.</p>
 </div>
 <div class="paragraph">
 <p>See also <a href="#term-blackbox">black box</a>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="term-workflow-management-system">Workflow Management System (WFMS)</h4>
-<div class="paragraph">
-<p>"Provides an infrastructure for the set-up, performance and monitoring of a defined sequence of tasks, arranged as a workflow."
-(quoted from Wikipedia)</p>
 </div>
 </div>
 <div class="sect3">
@@ -2632,7 +2541,7 @@ can then verify this signature and decide to trust the identity or not.</p>
 <div id="footer">
 <div id="footer-text">
  2022.1-EN<br>
-Last updated 2023-03-21 15:17:52 UTC
+Last updated 2023-03-21 15:21:21 UTC
 </div>
 </div>
 </body>
